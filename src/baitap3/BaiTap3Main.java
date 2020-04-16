@@ -16,6 +16,12 @@ public class BaiTap3Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        SinhVienPoly Svpoly = new SinhVienIT(8, 7, 6,"Hồ Nguyễn Thanh Thiện");
+        SinhVienIT Svit = new SinhVienIT(5, 10, 7, "Hoàng Vũ Thống");
+        SinhVienBiz Svbiz = new SinhVienBiz(9, 9.3, "Nguyễn Hồ Tiến");
+        Svpoly.xuat();
+        Svit.xuat();
+        Svbiz.xuat();
     }
     
 }
